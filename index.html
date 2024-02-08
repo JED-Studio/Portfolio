@@ -1,0 +1,1459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sweetalert.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jed Studio</title>
+    <meta name="description" content="3D Artist и UX/UI Designer">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+    <meta name="yandex-verification" content="f2362a355a64eddd" />
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+<body>
+
+
+<!-- Header -->
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+
+            <div class="user">
+                <div class="user__avatar">
+                    <img src="images/PHOTO/ЛОГО.png" alt="" width="55">
+                </div>
+                <div class="user__content">
+                    <div class="user__name">
+                        Магомедов<br>Рамазан
+                    </div>
+                    <div class="user__prof">Frontend-разработчик</div>
+                </div>
+            </div>
+
+            <nav class="nav" id="nav">
+                <a class="nav__link" href="#works_stop">работы</a>
+                <a class="nav__link" href="#aboutmep">обо мне</a>
+                <a class="nav__link" href="#conteiner_map">блог</a>
+              <!-- <a class="nav__link" href="#">контакт</a>-->
+                <a class="nav__link  nav__link--btn" href="#" data-modal="#modal_hire_me">Оставить заявку</a>
+            </nav>
+
+            <button class="burger" type="button" id="navToggle">
+                <img class="burger__icon" src="images/burger.svg" alt="">
+            </button>
+        </div>
+    </div>
+</header>
+
+
+
+<!-- Intro -->
+<section class="intro">
+    <div class="container">
+
+        <div class="intro__inner">
+            <div class="intro__content">
+                <h2 class="intro__subtitle">Привет я</h2>
+                <h1 class="intro__title">Магомедов Рамазан</h1>
+                <div class="intro__text">Frontend-разработчик</div>  <!--UI &amp; UX Designer -->
+
+                <div class="social">
+                    <a class="social__link" href="https://wa.me/79637916468?text=ghbd..">
+                        <img src="images/social/WhatsApp.svg" width="50" height="50" alt="">
+                    </a>
+                    <a class="social__link" href="https://www.youtube.com/@JED4109">
+                        <img src="images/social/YouTube.svg" width="50" height="50" alt="">
+                    </a>
+                    <a class="social__link" href="https://vk.com/romamagomedov">
+                        <img src="images/social/VK.svg"   width="50" height="50" alt="">
+                    </a>
+                    <a class="social__link" href="https://www.instagram.com/jed_3d_studio">
+                        <img src="images/social/instagram-round-line-color-icon.svg" width="50" height="50" alt="">
+                    </a>
+                    <a class="social__link" href="#">
+                        <img src="images/social/Mail.ru.svg"width="50" height="50"  alt="">
+                    </a>
+                    <a class="social__link" href="https://t.me/Jedstudio">
+                        <img src="images/social/Telegram.svg" width="50" height="50" alt="">
+                    </a>
+                </div>
+
+                <a class="btn" href="#" data-modal="#modal_hire_me">Оставить заявку</a>
+                <button class="btn" type="button" data-modal="#modal_resume">МОЕ РЕЗЮМЕ</button>
+            </div>
+
+             <img class="intro__photo" src="images/PHOTO/РОМА-РОМАН13.png" alt=""  >
+        </div><!-- /.intro__inner -->
+
+    </div><!-- /.container -->
+</section>
+
+.works .container .portfolio .portfolio_col
+
+<!-- Works -->
+<div class="works" id="works_stop">
+    <div class="container">
+
+        <div class="works__nav">
+            <a class="works__nav-link" href="#" data-filter="all">Все</a>
+            <a class="works__nav-link" href="#" data-filter="app">3D графика</a>
+            <a class="works__nav-link" href="#" data-filter="website">Веб-сайты</a>
+            <a class="works__nav-link" href="#" data-filter="interaction">Иллюстрации</a>
+        </div>
+
+
+        <div class="portfolio" id="portfolio">
+            <div class="portfolio__col" data-cat="app">
+                <div class="work" data-modal="#modal_project_1">
+                    <img class="work__image" src="images/PHOTO/IPHONE9.png" alt="">
+                    <div class="work__content">
+                        <div class="work__cat">категория: 3D графика</div>
+                        <div class="work__title">
+                            Iphone 14 Pro Max
+                            <time class="work__date" datetime="2019-11-22 19:00">2022</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio__col" data-cat="app">
+                <div class="work" data-modal="#modal_project_2">
+                    <img class="work__image" src="images/PHOTO/Наушники5.png" alt="">
+                    <div class="work__content">
+                        <div class="work__cat">категория: 3D графика</div>
+                        <div class="work__title">
+                            Storm Pro
+                            <time class="work__date" datetime="2019-11-22 19:00">2022</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio__col" data-cat="app">
+                <div class="work" data-modal="#modal_project_3">
+                    <img class="work__image" src="images/PHOTO/MONITOR.png" alt="">
+                    <div class="work__content">
+                        <div class="work__cat">категория: 3D графика</div>
+                        <div class="work__title">
+                            27" Монитор LG UltraGear
+                            <time class="work__date" datetime="2021-11-22 19:00">2022</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio__col" data-cat="app">
+                <div class="work" data-modal="#modal_project_4">
+                    <img class="work__image" src="images/PHOTO/SCI FI.png" alt="">
+                    <div class="work__content">
+                        <div class="work__cat">категория: 3D графика</div>
+                        <div class="work__title">
+                            ЧЕРНАЯ БЕЗДНА
+                            <time class="work__date" datetime="2021-11-22 19:00">2023</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio__col" data-cat="app">
+                <div class="work" data-modal="#modal_project_5">
+                    <img class="work__image" src="images/PHOTO/tunel.png" alt="">
+                    <div class="work__content">
+                        <div class="work__cat">категория: 3D графика</div>
+                        <div class="work__title">
+                            Unknown
+                            <time class="work__date" datetime="2021-11-22 19:00">2022</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio__col" data-cat="app">
+                <div class="work" data-modal="#modal_project_6">
+                    <img class="work__image" src="images/PHOTO/маяк6.png" alt="">
+                    <div class="work__content">
+                        <div class="work__cat">категория: 3D графика</div>
+                        <div class="work__title">
+                            Скоро
+                            <time class="work__date" datetime="2021-11-22 19:00">0000</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio__col" data-cat="app">
+                <div class="work" data-modal="#modal_project_7">
+                    <img class="work__image" src="images/PHOTO/POCO M3.png" alt="">
+                    <div class="work__content">
+                        <div class="work__cat">категория: 3D графика</div>
+                        <div class="work__title">
+                            Xiaomi POCO M3
+                            <time class="work__date" datetime="2021-11-22 19:00">2023</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio__col" data-cat="app">
+                <div class="work" data-modal="#modal_project_8">
+                    <img class="work__image" src="images/PHOTO/MOUSE.png" alt="">
+                    <div class="work__content">
+                        <div class="work__cat">категория: 3D графика</div>
+                        <div class="work__title">
+                            logitech g102
+                            <time class="work__date" datetime="2019-11-22 19:00">2022</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio__col" data-cat="app">
+                <div class="work" data-modal="#modal_project_9">
+                    <img class="work__image" src="images/PHOTO/пустыня.png" alt="">
+                    <div class="work__content">
+                        <div class="work__cat">категория: 3D графика</div>
+                        <div class="work__title">
+                            Скоро
+                            <time class="work__date" datetime="2019-11-22 19:00">0000</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio__col" data-cat="website">
+                <div class="work" data-modal="#modal_project_10">
+                    <img class="work__image" src="images/PHOTO/WEB.png">
+                    <div class="work__content">
+                        <div class="work__cat">категория: Веб-сайты</div>
+                        <div class="work__title">
+                            JED Studio: Portfolio
+                            <time class="work__date" datetime="2019-11-22 19:00">2023</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio__col" data-cat="website">
+                <div class="work" data-modal="#modal_project_11">
+                    <img class="work__image" src="images/PHOTO/климат1.png">
+                    <div class="work__content">
+                        <div class="work__cat">категория: Веб-сайты</div>
+                        <div class="work__title">
+                            Климат-строй
+                            <time class="work__date" datetime="2019-11-22 19:00">2022</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           <!-- <div class="portfolio__col"  data-cat="website">
+                <div class="work">
+                    <img class="work__image" src="https://placehold.it/370x300" alt="">
+                    <div class="work__content">
+                        <div class="work__cat">категория: 3D графика</div>
+                        <div class="work__title">
+                            Название проекта
+                            <time class="work__date" datetime="2019-11-22 19:00">2022</time>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+
+            
+
+        </div><!-- /.portfolio -->
+        
+        <div class="text-center">
+          <button class="btn  btn--sm" type="button" id="Baton">Загрузить больше работ</button> 
+          <!--<button class="log" type="button" id="Baton">Загрузить больше</button>-->
+        </div>
+
+    </div><!-- /.container -->
+</div><!-- /.works -->
+
+
+
+<!-- About -->
+<section class="about" id="aboutmep">
+    <div class="container">
+
+        <div class="about__inner">
+            <div class="about__photo">
+                <img class="img" src="images/PHOTO/ROMa.jpg" alt="" width="380">
+            </div>
+
+            <div class="about__content">
+                <h3 class="about__title">обо мне</h3>
+                <h2 class="about__bigtitle">КТО Я</h2>
+                <div class="about__text">
+                    <p> Привет! Меня зовут Рамазан мне 21 год. Проживаю я в городе Каспийск.  Занимаюсь версткой и 3d графикой.   
+                        С 2022 года веду телеграмм, для своих одногруппников с ДГУ о различных своих проектах. 
+                        Стремлюсь стать профессиональным специолистом во frontend-разработке и CG. 
+                        </p>
+                  
+                </div>
+                <a class="btn" href="#" data-modal="#modal_hire_me">Нанять меня</a>
+                <button class="btn" type="button" data-modal="#modal_resume">МОЕ РЕЗЮМЕ</button>
+            </div><!-- /.about__content -->
+        </div><!-- /.about__inner -->
+
+    </div><!-- /.container -->
+</section>
+
+
+
+<!-- Reviews -->
+<div class="reviews">
+    <div class="container">
+
+        <div class="reviews__item">
+            <div class="reviews__text">
+                <p>Трёхмерная компьютерная графика появилась в 1960-х годах. Первые векторные изображения состояли из множества точек и кривых, заданных математической формулой. Айван Сазерленд и Дэвид Эванс основали первую в мире кафедру компьютерной графики в университете Юты, США. Именно в те времена появилась программа Sketchpad (от англ. «альбом для рисования») — предок всех современных 3D-редакторов.      </p>
+                <p></p>
+            </div>
+
+        <!--<div class="reviews__author">
+                <img class="reviews__photo" src="https://placehold.it/103/333" alt="">
+                <div class="reviews__name">Edward M. Brooks</div>
+                <div class="reviews__company">Marketing House</div>
+                <div class="reviews__rating">
+                    <img class="reviews__star" src="images/star.svg" width="13" height="13" alt="">
+                    <img class="reviews__star" src="images/star.svg" width="13" height="13" alt="">
+                    <img class="reviews__star" src="images/star.svg" width="13" height="13" alt="">
+                    <img class="reviews__star" src="images/star.svg" width="13" height="13" alt="">
+                    <img class="reviews__star  reviews__star--unactive" src="images/star.svg" width="13" height="13" alt="">
+                </div>
+            </div>-->
+        </div><!-- /.reviews__item -->
+
+    </div><!-- /.container -->
+</div><!-- /.reviews -->
+
+
+
+<!-- News -->
+<section class="news" id="conteiner_map">
+    <div class="container">
+
+        <div class="news__header">
+            <h3 class="news__title" >мой блог</h3>
+            <div class="news__text">Рассказываю о разных новых технологиях</div>
+        </div>
+
+
+        <div class="articles">
+
+            <div class="articles__col">
+                <div class="articles__item">
+                    <div class="articles__header">
+                        <time class="articles__date">
+                            27<br>июль
+                        </time>
+                        <a href="#">
+                            <img class="articles__photo" src="images/NEWS/f7d59276acd1c274644c0cc26dfce140.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="articles__content">
+                        <h4 class="articles__title">
+                            <a href="https://habr.com/ru/news/750910/">В браузере Opera GX появилась функция «Фальшивая история», подменяющая историю через 14 дней бездействия</a>
+                        </h4>
+                        <div class="articles__cat">IT-новости</div>
+                        <div class="articles__text">
+                            <p>В браузере Opera GX для геймеров появилась функция «Фальшивая история». С её помощью настоящая история браузера автоматически заменяется на вымышленную, если не открывать браузер две недели.</p>
+                        </div>
+                    </div>
+                    <a class="btn  btn--sm" href="https://habr.com/ru/news/750910/">ПОДРОБНЕЕ</a>
+                </div>
+            </div>
+
+            <div class="articles__col">
+                <div class="articles__item">
+                    <div class="articles__header">
+                        <time class="articles__date">
+                            29<br>июль
+                        </time>
+                        <a href="#">
+                            <img class="articles__photo" src="images/NEWS/29yqhboin2ke4-gvuxi-vlshfxc.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="articles__content">
+                        <h4 class="articles__title">
+                            <a href="https://habr.com/ru/news/751108/">Китай запустил крупнейший солнечный телескоп</a>
+                        </h4>
+                        <div class="articles__cat">IT-новости</div>
+                        <div class="articles__text">
+                            <p>На юго-западе Китая ввели в пробную эксплуатацию крупнейший в мире массив радиотелескопов для наблюдения за Солнцем. Обсерватория Daocheng Solar Radio Telescope (DSRT) имеет 313 тарелок диаметром 6 м, которые образуют окружность в 3,14 км. В центре сооружения расположена калибровочная башня высотой 100 м.</p>
+                        </div>
+                    </div>
+                    <a class="btn  btn--sm" href="https://habr.com/ru/news/751108/">ПОДРОБНЕЕ</a>
+                </div>
+            </div>
+
+            
+
+            <div class="articles__col">
+                <div class="articles__item">
+                    <div class="articles__header">
+                        <time class="articles__date">
+                            29<br>июль
+                        </time>
+                        <a href="#">
+                            <img class="articles__photo" src="images/NEWS/rere (1).jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="articles__content">
+                        <h4 class="articles__title">
+                            <a href="https://habr.com/ru/news/750948/">Гендиректор Intel: Мы будем встраивать ИИ в каждую новую платформу</a>
+                        </h4>
+                        <div class="articles__cat">IT-новости</div>
+                        <div class="articles__text">
+                            <p>Генеральный директор Intel Пэт Гелсингер во время отчёта о доходах компании за второй квартал 2023 года заявил инвесторам, что Intel планирует «встроить ИИ в каждый продукт, который создаётся».</p>
+                        </div>
+                    </div>
+                    <a class="btn  btn--sm" href="https://habr.com/ru/news/750948/">ПОДРОБНЕЕ</a>
+                </div>
+            </div>
+
+        </div><!-- /.articles -->
+
+        <div class="news__footer">
+            <a class="news__link" href="https://habr.com/ru/articles">Смотрите больше постов</a>
+        </div>
+
+    </div><!-- /.container -->
+</section>
+
+
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container"> <!-- id="conteiner_map"-->
+
+        <div class="footer__inner">
+            <div class="footer__credits">
+                <div class="footer__copyright">
+                    &copy; 2022 UI43 - Free Templates
+                </div>
+
+                <div class="footer__social">
+                    <a href="https://www.youtube.com/@JED4109" target="_blank">
+                        <img src="images/social/youtube_logo_icon_144714.svg" width="24" alt="">
+                    </a>
+                    <a href="https://vk.com/romamagomedov" target="_blank">
+                        <img src="images/social/vk-social-network-logo_icon-icons.com_73339.svg" width="18" alt="">
+                    </a>
+                    <a href="" target="_blank">
+                        <img src="images/social/mail_ru_logo_icon_145089.svg" width="18" alt="">
+                    </a>
+                    <a href="https://t.me/Jedstudio" target="_blank">
+                        <img src="images/social/telegram_icon_131945.svg" height="18" alt="">
+                    </a>
+                    <a href="https://www.instagram.com/jed_3d_studio" target="_blank">
+                        <img src="images/instagram-gray.svg" width="18" alt="">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="images/social/whatsapp_icon-icons.com_65542.svg" width="20" alt="">
+                    </a>
+                </div>
+            </div><!-- /.footer__credits -->
+
+            <nav class="footer__nav">
+                <a class="footer__nav-link" href="#works_stop">Работы</a>
+                <a class="footer__nav-link" href="#aboutmep">Обо мне</a>
+                <a class="footer__nav-link" href="#conteiner_map">Блог</a>
+               <!-- <a class="footer__nav-link" href="#">Контакт</a>-->
+                <a class="footer__nav-link  footer__nav-link--btn" href="" data-modal="#modal_hire_me">Оставить заявку</a>
+            </nav>
+        </div><!-- /.footer__inner -->
+
+    </div><!-- /.container -->
+</footer>
+
+
+
+
+
+<!-- Modals -->
+<div class="modal" id="modal_project_1">
+    <div class="modal__dialog">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="images/social/cross-circle-svgrepo-com.svg" width="40" height="40" alt="Close">
+        </button>
+
+        <div class="modal-work">
+            
+            <div class="modal-work__preview">
+                <div data-slider="slick">
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/Iphon7989.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/untitled.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/Iphon798.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/Iphon79.png" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+
+           
+
+            <div class="modal-work__content">
+
+                <div class="modal-work__header">
+                    <h3 class="modal-work__title">IPHONE 14 PRO MAX</h3>
+                    <div class="modal-work__info">
+                        3D графика <span class="modal-work__info-divider">|</span> 2022
+                    </div>
+                </div>
+
+                <div class="modal-work__client">
+                    <div class="modal-work__client-title">Создатель:</div>
+                    <div class="modal-work__client-company">JED STUDIO</div>
+                </div>
+
+                <div class="modal-work__text">
+                    <p>Цель проекта создание реалистичной 3D модели и анимации Iphone для использования в рекламных или информационных материалах</p>
+                    
+                
+                </div>
+
+                
+
+                <div class="modal-work__footer">
+                    <button class="modal-work__btn slickPrev" type="button">
+                        <img src="images/back.svg" height="11" alt="">
+                        Previous
+                    </button>
+                    <button class="modal-work__btn slickNext" type="button">
+                        Next
+                        <img src="images/next.svg" height="11" alt="">
+                    </button>
+                </div>
+
+            </div><!-- /.modal-work__content -->
+        </div><!--/.modal-work -->
+
+    </div><!-- /.modal__dialog -->
+</div><!-- /.modal -->
+
+
+<div class="modal" id="modal_project_2">
+    <div class="modal__dialog">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="images/social/cross-circle-svgrepo-com.svg" width="40" height="40" alt="Close">
+        </button>
+
+        <div class="modal-work">
+            <div class="modal-work__preview">
+                <div data-slider="slick">
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/НАУШНИКИ8.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/НАУШНИКИ6.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/НАУШНИКИ7.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/НАУШНИКИ10.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/НАУШНИКИ9.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-work__content">
+
+                <div class="modal-work__header">
+                    <h3 class="modal-work__title">STORM PRO</h3>
+                    <div class="modal-work__info">
+                        3D графика<span class="modal-work__info-divider">|</span> 2023
+                    </div>
+                </div>
+
+                <div class="modal-work__client">
+                    <div class="modal-work__client-title">Создатель:</div>
+                    <div class="modal-work__client-company">JED Studia</div>
+                </div>
+
+                <div class="modal-work__text">
+                    <p> Проект 3D модели и анимации наушников DEXP Storm Pro - это моя идея создания реалистичной трехмерной модели и захватывающей анимации для этих наушников. Я использовал программу Blender для создания высококачественной модели, учитывая все детали и текстуры. Для создания логотипа было принято использовать illustrator так как так было быстрее, после чего экспортируем в формате svg в Blender. Я также  добавил различные функции и возможности наушников в анимацию, чтобы оживить модель и показать ее потенциал.
+                    </p>
+                    <p></p>
+                </div>
+
+                <div class="modal-work__footer">
+                    <button class="modal-work__btn slickPrev" type="button">
+                        <img src="images/back.svg" height="11" alt="">
+                        Previous
+                    </button>
+                    <button class="modal-work__btn slickNext" type="button">
+                        Next
+                        <img src="images/next.svg" height="11" alt="">
+                    </button>
+                </div>
+
+            </div><!-- /.modal-work__content -->
+        </div><!--/.modal-work -->
+
+    </div><!-- /.modal__dialog -->
+</div><!-- /.modal -->
+
+<div class="modal" id="modal_project_3">
+    <div class="modal__dialog">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="images/social/cross-circle-svgrepo-com.svg" width="40" height="40" alt="Close">
+        </button>
+
+        <div class="modal-work">
+            <div class="modal-work__preview">
+                <div data-slider="slick">
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/Монитор6.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/Монитор1.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/Монитор5.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/Монитор2.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/Монитор4.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-work__content">
+
+                <div class="modal-work__header">
+                    <h3 class="modal-work__title">27" МОНИТОР LG ULTRAGEAR</h3>
+                    <div class="modal-work__info">
+                        3D графика <span class="modal-work__info-divider">|</span> 2022
+                    </div>
+                </div>
+
+                <div class="modal-work__client">
+                    <div class="modal-work__client-title">Создатель:</div>
+                    <div class="modal-work__client-company">JED Studia</div>
+                </div>
+
+                <div class="modal-work__text">
+                    <p> 3D модель монитора имеет полностью текстурированный, детализированный дизайн, позволяющий выполнять рендеринг крупным планом, и первоначально была смоделирована в blender  и отрисована с помощью eevee.
+                        Точность воспроизведения оптимальна вплоть до рендеринга в 2K. Рендеры не имеют постобработки. Я позаботился о том, чтобы в модели были учтены мельчайшие детали, чтобы обеспечить наилучшие результат.
+                        
+</p>  <p></p>
+                </div>
+
+                <div class="modal-work__footer">
+                    <button class="modal-work__btn slickPrev" type="button">
+                        <img src="images/back.svg" height="11" alt="">
+                        Previous
+                    </button>
+                    <button class="modal-work__btn slickNext" type="button">
+                        Next
+                        <img src="images/next.svg" height="11" alt="">
+                    </button>
+                </div>
+
+            </div><!-- /.modal-work__content -->
+        </div><!--/.modal-work -->
+
+    </div><!-- /.modal__dialog -->
+</div><!-- /.modal -->
+
+<div class="modal" id="modal_project_4">
+    <div class="modal__dialog">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="images/social/cross-circle-svgrepo-com.svg" width="40" height="40" alt="Close">
+        </button>
+
+        <div class="modal-work">
+            <div class="modal-work__preview">
+                <div data-slider="slick">
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/SCI FI12.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/SCI FI13.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-work__content">
+
+                <div class="modal-work__header">
+                    <h3 class="modal-work__title">черная бездна</h3>
+                    <div class="modal-work__info">
+                         3D графика <span class="modal-work__info-divider">|</span> 2023
+                    </div>
+                </div>
+
+                <div class="modal-work__client">
+                    <div class="modal-work__client-title">Создатель:</div>
+                    <div class="modal-work__client-company">JED Studio</div>
+                </div>
+
+                <div class="modal-work__text">
+                    <p> Научно-фантастическая сцена черная бездна была вдохновлена из мультика Disney "Ральф" (сцена, где Ральф украл медаль).  </p>
+                    
+                    <p> Cценa была  сделана в связке Blender + Substance Painter. И важная частью было конечно текстурирование. Я использовал программу Substance Painter, чтобы создать текстуры для каждого объекта в сцене.  </p>
+                    <p> Для анимации я использовал аддон для камеры в Blender. Этот аддон полезен тем, что имитирует ходьбу человек. В результате я получил научно-фантастическую сцену черной бездны</p>
+                </div>
+
+                <div class="modal-work__footer">
+                    <button class="modal-work__btn slickPrev" type="button">
+                        <img src="images/back.svg" height="11" alt="">
+                        Previous
+                    </button>
+                    <button class="modal-work__btn slickNext" type="button">
+                        Next
+                        <img src="images/next.svg" height="11" alt="">
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="modal" id="modal_project_5">
+    <div class="modal__dialog">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="images/social/cross-circle-svgrepo-com.svg"  width="40" height="40"alt="Close">
+        </button>
+
+        <div class="modal-work">
+            <div class="modal-work__preview">
+                <div data-slider="slick">
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/UNKOW1.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/UNKOW2.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/UNKOW.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-work__content">
+
+                <div class="modal-work__header">
+                    <h3 class="modal-work__title">Unknown</h3>
+                    <div class="modal-work__info">
+                        3D графика <span class="modal-work__info-divider">|</span> 2022
+                    </div>
+                </div>
+
+                <div class="modal-work__client">
+                    <div class="modal-work__client-title">Создатель:</div>
+                    <div class="modal-work__client-company">JED Studio</div>
+                </div>
+
+                <div class="modal-work__text">
+                    <p>Это мой второй проект и назвал я его "Unknown". Почему Unknown(неизвестный)? Потому что на протяжении всего пути за нами будут следить неизвестный.
+                        Это пока 1 часть(есть в ютубе). В будущем я сделаю 2 часть со всеми теми навыками которыми приобрел за весь год. 
+                    </p>
+                    <p></p>
+                </div>
+
+                <div class="modal-work__footer">
+                    <button class="modal-work__btn slickPrev" type="button">
+                        <img src="images/back.svg" height="11" alt="">
+                        Previous
+                    </button>
+                    <button class="modal-work__btn slickNext" type="button">
+                        Next
+                        <img src="images/next.svg" height="11" alt="">
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="modal" id="modal_project_6">
+    <div class="modal__dialog">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="images/social/cross-circle-svgrepo-com.svg"  width="40" height="40"alt="Close">
+        </button>
+
+        <div class="modal-work">
+            <div class="modal-work__preview">
+                <div data-slider="slick">
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/мАЯК ФОТКИ2.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/MAIKA4.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/MAIAK.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/MAIKA2.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/MAIKA3.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-work__content">
+
+                <div class="modal-work__header">
+                    <h3 class="modal-work__title">The Witcher 3: Lighthouse</h3>
+                    <div class="modal-work__info">
+                        3D графика <span class="modal-work__info-divider">|</span> 2022
+                    </div>
+                </div>
+
+                <div class="modal-work__client">
+                    <div class="modal-work__client-title">Создатель:</div>
+                    <div class="modal-work__client-company">JED Studio</div>
+                </div>
+
+                <div class="modal-work__text">
+                    <p>Это мой самый большой университетский проект, делали мы его 5 месяцев. Почему так долго? Потому что мы все были абсолютными новичками. Руководителем проекта поставили меня, я же в свою очередь выбрал заинтересованных в изучении 3D. Так как я со своим другом любили Вельмак 3, мы решили воссоздать одну из точек и это МАЯК. 
+                        Я занимался окружением, маяком,мостом, домами, UV разверткой, текстурированием и помощью в геометрии объектов моим одногруппникам. Они же занимались объектами для наполнения картины: люки, чугунный котел, бутылки, дверные ручки, скамейка, ведра и ящики. Проект получился очень классным.
+                    </p>
+                    <p></p>
+                </div>
+
+                <div class="modal-work__footer">
+                    <button class="modal-work__btn slickPrev" type="button">
+                        <img src="images/back.svg" height="11" alt="">
+                        Previous
+                    </button>
+                    <button class="modal-work__btn slickNext" type="button">
+                        Next
+                        <img src="images/next.svg" height="11" alt="">
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="modal" id="modal_project_7">
+    <div class="modal__dialog">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="images/social/cross-circle-svgrepo-com.svg"  width="40" height="40"alt="Close">
+        </button>
+
+        <div class="modal-work">
+            <div class="modal-work__preview">
+                <div data-slider="slick">
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/POCO12.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/POCO16.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/POCO13.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/POCO14.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/POCO17.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/POCO15.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-work__content">
+
+                <div class="modal-work__header">
+                    <h3 class="modal-work__title">XIAOMI POCO M3</h3>
+                    <div class="modal-work__info">
+                        3D графика <span class="modal-work__info-divider">|</span> 2023
+                    </div>
+                </div>
+
+                <div class="modal-work__client">
+                    <div class="modal-work__client-title">Создатель:</div>
+                    <div class="modal-work__client-company">JED Studio</div>
+                </div>
+
+                <div class="modal-work__text">
+                    <p>Создание анимационной рекламы смартфона Xiaomi Poco M3. Можно посмотреть на моем ютуб канале.(рендеры скоро будут выложены)</p>
+                    <p></p>
+                </div>
+
+                <div class="modal-work__footer">
+                    <button class="modal-work__btn slickPrev" type="button">
+                        <img src="images/back.svg" height="11" alt="">
+                        Previous
+                    </button>
+                    <button class="modal-work__btn slickNext" type="button">
+                        Next
+                        <img src="images/next.svg" height="11" alt="">
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="modal" id="modal_project_8">
+    <div class="modal__dialog">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="images/social/cross-circle-svgrepo-com.svg"  width="40" height="40"alt="Close">
+        </button>
+
+        <div class="modal-work">
+            <div class="modal-work__preview">
+                <div data-slider="slick">
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/Logitech.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/Logitech1.png" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/Logitech2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-work__content">
+
+                <div class="modal-work__header">
+                    <h3 class="modal-work__title">LOGITECH G102</h3>
+                    <div class="modal-work__info">
+                        3D графика <span class="modal-work__info-divider">|</span> 2023
+                    </div>
+                </div>
+
+                <div class="modal-work__client">
+                    <div class="modal-work__client-title">Создатель:</div>
+                    <div class="modal-work__client-company">JED Studio</div>
+                </div>
+
+                <div class="modal-work__text">
+                    <p> Сделал модель своей мышки LOGITECH G102.(рендеры скоро будут выложены)</p>
+                    <p></p>
+                </div>
+
+                <div class="modal-work__footer">
+                    <button class="modal-work__btn slickPrev" type="button">
+                        <img src="images/back.svg" height="11" alt="">
+                        Previous
+                    </button>
+                    <button class="modal-work__btn slickNext" type="button">
+                        Next
+                        <img src="images/next.svg" height="11" alt="">
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="modal" id="modal_project_9">
+    <div class="modal__dialog">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="images/social/cross-circle-svgrepo-com.svg"  width="40" height="40"alt="Close">
+        </button>
+
+        <div class="modal-work">
+            <div class="modal-work__preview">
+                <div data-slider="slick">
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/" alt="">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-work__content">
+
+                <div class="modal-work__header">
+                    <h3 class="modal-work__title">СКОРО</h3>
+                    <div class="modal-work__info">
+                        3D графика<span class="modal-work__info-divider">|</span> 2023
+                    </div>
+                </div>
+
+                <div class="modal-work__client">
+                    <div class="modal-work__client-title">Создатель:</div>
+                    <div class="modal-work__client-company">JED Studio</div>
+                </div>
+
+                <div class="modal-work__text">
+                    <p>Скоро
+                    </p>
+                    <p></p>
+                </div>
+
+                <div class="modal-work__footer">
+                    <button class="modal-work__btn slickPrev" type="button">
+                        <img src="images/back.svg" height="11" alt="">
+                        Previous
+                    </button>
+                    <button class="modal-work__btn slickNext" type="button">
+                        Next
+                        <img src="images/next.svg" height="11" alt="">
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="modal" id="modal_project_10">
+    <div class="modal__dialog">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="images/social/cross-circle-svgrepo-com.svg"  width="40" height="40"alt="Close">
+        </button>
+
+        <div class="modal-work">
+            <div class="modal-work__preview">
+                <div data-slider="slick">
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/Portfolio.png" alt="">
+                    </div>
+                
+                </div>
+            </div>
+            <div class="modal-work__content">
+
+                <div class="modal-work__header">
+                    <h3 class="modal-work__title">Cайт портфолио</h3>
+                    <div class="modal-work__info">
+                        Веб-сайты <span class="modal-work__info-divider">|</span> 2023
+                    </div>
+                </div>
+
+                <div class="modal-work__client">
+                    <div class="modal-work__client-title">Создатель:</div>
+                    <div class="modal-work__client-company">JED Studio</div>
+                </div>
+
+                <div class="modal-work__text">
+                    <p>Сайт создавался для показа моих работ в области 3д графики и веб-разработки. 
+                    </p>
+                    <p></p>
+                </div>
+
+                <div class="modal-work__footer">
+                    <button class="modal-work__btn slickPrev" type="button">
+                        <img src="images/back.svg" height="11" alt="">
+                        Previous
+                    </button>
+                    <button class="modal-work__btn slickNext" type="button">
+                        Next
+                        <img src="images/next.svg" height="11" alt="">
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="modal" id="modal_project_11">
+    <div class="modal__dialog">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="images/social/cross-circle-svgrepo-com.svg"  width="40" height="40"alt="Close">
+        </button>
+
+        <div class="modal-work">
+            <div class="modal-work__preview">
+                <div data-slider="slick">
+                    <div>
+                        <img class="modal-work__photo" src="images/PHOTO/климат строй.png" alt="">
+                    </div>
+                
+                </div>
+            </div>
+            <div class="modal-work__content">
+
+                <div class="modal-work__header">
+                    <h3 class="modal-work__title">Климат строй</h3>
+                    <div class="modal-work__info">
+                        Веб-сайты <span class="modal-work__info-divider">|</span> 2022
+                    </div>
+                </div>
+
+                <div class="modal-work__client">
+                    <div class="modal-work__client-title">Создатель:</div>
+                    <div class="modal-work__client-company">JED Studio</div>
+                </div>
+
+                <div class="modal-work__text">
+                
+                    <a class="link">Ссылка:</a>
+                    <a href="https://klimat-stroi.ru">https://klimat-stroi.ru</a>
+                    <p>Сайт который мы создавали с напарником для компании Климат-строй. Нас не просили делать сайт, но мы жаждали новых проектов. Я занимался дизайном и версткой сайта, мой напарник же работал над функционалом сайта.
+                        Проект дал нам хороший опыт создании сайтов.
+                    </p>
+                </div>
+
+                <div class="modal-work__footer">
+                    <button class="modal-work__btn slickPrev" type="button">
+                        <img src="images/back.svg" height="11" alt="">
+                        Previous
+                    </button>
+                    <button class="modal-work__btn slickNext" type="button">
+                        Next
+                        <img src="images/next.svg" height="11" alt="">
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="modal" id="modal_resume">
+    <div class="modal__dialog">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="images/social/cross-circle-svgrepo-com.svg" alt="Close" width="40" height="40">
+        </button>
+
+        <div class="modal__content">
+            <h3 class="modal__title  text-center">РЕЗЮМЕ</h3>
+
+            <!--<div class="text-center">
+                <a class="btn btn--thin" href="#">СКАЧАТЬ PDF</a>
+                <a class="btn btn--thin" href="#">СКАЧАТЬ DOCX</a>
+            </div>-->
+
+            <div class="timeline">
+                <div class="timeline__col  timeline__col--left">
+                    <h4 class="timeline__title">ОПЫТ</h4>
+
+                    <div class="timeline__item">
+                        <time class="timeline__date" datetime="11-21-2019">2021 - 2022</time>
+                        <h5 class="timeline__subtitle">Климат строй</h5>
+                           <div class="timeline__position">Системный администратор</div>
+                        <div class="timeline__text">
+                            <p>Я занимался:
+                            Созданием сайта, 
+                            Поддержка и наполнение сайта, 
+                            Создание брендбука,
+                            Создание анимаций для инстаграмма.</p>
+                        </div>
+                    </div>
+
+                   <!-- <div class="timeline__item">
+                        <time class="timeline__date" datetime="11-21-2019">2017 - <b>Present</b></time>
+                        <h5 class="timeline__subtitle">Freelancer</h5>
+                        <div class="timeline__position"></div>
+                        <div class="timeline__text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis debitis autem aspernatur sed iusto maiores nihil magni provident dolore, animi nemo est corporis in facilis eum quae sint aliquam, ipsam?</p>
+                        </div>
+                    </div> -->
+
+                  
+                </div>
+
+                <div class="timeline__col  timeline__col--right">
+                    <h4 class="timeline__title">ОБРАЗОВАНИЕ</h4>
+
+                    <div class="timeline__item">
+                        <time class="timeline__date" datetime="11-21-2019">2019 - 2023</time>
+                        <h5 class="timeline__subtitle">ДГУ</h5>
+                        <div class="timeline__position"> Дагестанский государственный университет, факультет математики и компьютерных наук,бакалавриат,
+                            г.Махачкала
+                        </div>
+                    </div>
+
+                  <!--  <div class="timeline__item">
+                        <time class="timeline__date" datetime="11-21-2019">2023 - 2025</time>
+                        <h5 class="timeline__subtitle"></h5>
+                        <div class="timeline__position"> Дагестанский государственный университет, факультет пока неизвестно, магистратура 
+                            г.Махачкала</div>
+                    </div>-->
+
+                    <h4 class="timeline__title">Skills</h4>
+                    <div class="progress-bar">
+                       
+
+                        <div class="progress-bar__item">
+                            <div class="progress-bar__left">
+                                <div class="progress-bar__title">Blender</div>
+                            </div>
+                            <div class="progress-bar__right">
+                                <div class="progress-bar__bar">
+                                    <div class="progress-bar__progress" style="width: 65%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar__item">
+                            <div class="progress-bar__left">
+                                <div class="progress-bar__title">illustrator</div>
+                            </div>
+                            <div class="progress-bar__right">
+                                <div class="progress-bar__bar">
+                                    <div class="progress-bar__progress" style="width: 40%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar__item">
+                            <div class="progress-bar__left">
+                                <div class="progress-bar__title">Photoshop</div>
+                            </div>
+                            <div class="progress-bar__right">
+                                <div class="progress-bar__bar">
+                                    <div class="progress-bar__progress" style="width: 30%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar__item">
+                            <div class="progress-bar__left">
+                                <div class="progress-bar__title">Substance Painter</div>
+                            </div>
+                            <div class="progress-bar__right">
+                                <div class="progress-bar__bar">
+                                    <div class="progress-bar__progress" style="width: 60%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar__item">
+                            <div class="progress-bar__left">
+                                <div class="progress-bar__title">After Effects</div>
+                            </div>
+                            <div class="progress-bar__right">
+                                <div class="progress-bar__bar">
+                                    <div class="progress-bar__progress" style="width: 30%;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="progress-bar__item">
+                            <div class="progress-bar__left">
+                                <div class="progress-bar__title">UI/UX</div>
+                            </div>
+                            <div class="progress-bar__right">
+                                <div class="progress-bar__bar">
+                                    <div class="progress-bar__progress" style="width: 45%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar__item">
+                            <div class="progress-bar__left">
+                                <div class="progress-bar__title">HTML</div>
+                            </div>
+                            <div class="progress-bar__right">
+                                <div class="progress-bar__bar">
+                                    <div class="progress-bar__progress" style="width: 55%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar__item">
+                            <div class="progress-bar__left">
+                                <div class="progress-bar__title">CSS</div>
+                            </div>
+                            <div class="progress-bar__right">
+                                <div class="progress-bar__bar">
+                                    <div class="progress-bar__progress" style="width: 55%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar__item">
+                            <div class="progress-bar__left">
+                                <div class="progress-bar__title">JS</div>
+                            </div>
+                            <div class="progress-bar__right">
+                                <div class="progress-bar__bar">
+                                    <div class="progress-bar__progress" style="width: 5%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /.progress-bar -->
+
+                    <h4 class="timeline__title">Инструменты</h4>
+
+                    <div class="timeline__item">
+                     <!--   <time class="timeline__date" datetime="11-21-2019">2023</time>
+                        <h5 class="timeline__subtitle"></h5>-->
+                        <div class="timeline__position">Я использую в работах Adobe Photoshop, Blender, Adobe Substance 3D Painter, Adobe After Effects, Adobe illustrator, Figma </div>
+                        <div class="timeline__text">
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <h4 class="timeline__title">Технологии веб-разработки</h4>
+
+                    <div class="timeline__item">
+                        <!-- <time class="timeline__date" datetime="11-21-2019">2023</time>-->
+                        <h5 class="timeline__subtitle">С которыми я работаю</h5>
+                        <div class="timeline__position">HTML,CSS,JS</div>
+                        <div class="timeline__text">
+                            <p></p>
+                        </div>
+                    </div>
+                </div><!-- /.timeline__col -->
+
+            </div><!-- /.timeline -->
+
+            <div class="text-center">
+                <a class="btn" href="#"data-modal="#modal_hire_me">Оставить заявку</a>
+            </div>
+
+        </div><!-- /.modal__content -->
+
+    </div><!-- /.modal__dialog -->
+</div><!-- /.modal -->
+
+
+<div class="modal" id="modal_hire_me">
+    <div class="modal__dialog  modal__dialog--sm">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="images/social/cross-circle-svgrepo-com.svg"   alt="Close" width="40" height="40" >
+        </button>
+
+        <div class="contact">
+            
+            <div class="contact__left">
+                <h3 class="modal__title mb-0">ДАВАЙ ПОГОВОРИМ!</h3>
+                <h4 class="modal__subtitle">ПОЗВОНИТЕ МНЕ ИЛИ ОТПРАВЬТЕ ЗАПРОС</h4>
+
+                <ul class="contact__info">
+                    <li class="contact__info-item">
+                        <img class="contact__info-icon" src="images/social/phone-svgrepo-com.svg" width="20" height="20" alt="">
+                        +7 963 791 64 68
+                    </li>
+                    <li class="contact__info-item">
+                        <img class="contact__info-icon" src="images/social/email-svgrepo-com.svg" width="20" height="20" alt="">
+                        romagt2015@mail.ru
+                    </li>
+                </ul>
+                
+                
+                <form class="form" action="" method="post" id="form1" >
+                    <div class="form__group">
+                        <label class="form__label" for="input-email">Адрес e-mail</label>
+                        <input class="form__input" name="email1" type="text" id="input-email3" placeholder="адрес e-mail">
+                    </div>
+
+                    <div class="form__group">
+                        <label class="form__label" for="input-text">Запрос</label>
+                        <textarea class="form__textarea" name="text1" id="input-text" placeholder="Введите свой запрос..."></textarea>
+                    </div>
+
+                    <div class="text-right" id="text_right_result">
+                        <button class="btn" type="submit"  id="btnDATA">ОТПРАВИТЬ</button>
+                    </div>
+
+                    
+
+                </form>
+            </div><!-- /.contact__left -->
+
+            <div class="contact_right">
+                <img src="images/PHOTO/Фон для номера.png">
+            </div>
+
+
+        </div><!-- /.contact -->
+
+    </div><!-- /.modal__dialog -->
+</div><!-- /.modal -->
+
+
+
+<!-- JS -->
+<script src="js/slick.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/download more.js"></script>
+<script src="js/form.js"></script>
+   <script>
+       $("#form1").submit(function(a){
+           a.preventDefault();
+           let str = $(this).serialize();
+           $.ajax({
+               type:"POST",
+               url:"sender.php",
+               data:str,
+               success:function(response){
+                   if(response == 'ok'){
+                       result = '<div class="form_success" ">Спасибо, ваша заявка принята</div>';
+                   }
+                   else{
+                       result = response;
+                   }
+                   $("#form1").after('<div class="form_success" ">Спасибо, ваша заявка принята</div>');
+                   $('.form_success').fadeOut(3000);
+               }
+           });
+           return false;
+       });
+   </script>
+
+   <script>
+       let loadMoreBtn = document.querySelector('#Baton');
+        let currentItem = 3;
+
+        loadMoreBtn.onclick = () =>{
+            let boxes = [...document.querySelectorAll('.works .container .portfolio .portfolio__col')];
+            for (let i = currentItem; i < currentItem + 3; i++){
+            boxes[i].style.display = 'inline-block';
+            }
+            currentItem += 3;
+        }
+   </script>
+</body>
+</html>
